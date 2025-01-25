@@ -61,6 +61,24 @@ export default function ScanCodePage() {
   return (
     <div
       className="grid grid-rows-[10px_1fr_10px] items-center justify-items-center min-h-screen p-8 pb-10 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <a href="/"
+         className="fixed top-8 left-3 rounded-full w-14 h-14 flex items-center justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] shadow-lg transition-all z-50">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M19 12H5"/>
+          <path d="M12 19l-7-7 7-7"/>
+        </svg>
+      </a>
+
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">
           <div style={{minHeight: 0, margin: 0}}>
@@ -71,16 +89,15 @@ export default function ScanCodePage() {
         </div>
         <div className="flex gap-4 items-center flex-col sm:flex-row content-center">
           {!isCameraOpen ?
-            <button onClick={handleStartScanBtn} className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">
+            <button onClick={handleStartScanBtn}
+                    className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">
               Scan
             </button> :
-            <button onClick={handleStopScanBtn} className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-red-500 text-background gap-2 hover:bg-red-600 dark:hover:bg-red-400 text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">
+            <button onClick={handleStopScanBtn}
+                    className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-red-500 text-background gap-2 hover:bg-red-600 dark:hover:bg-red-400 text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">
               Stop
             </button>
           }
-          <a href="/" className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">
-            Back
-          </a>
         </div>
       </main>
     </div>

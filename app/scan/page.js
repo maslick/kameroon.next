@@ -70,7 +70,7 @@ export default function ScanCodePage() {
             {renderCamera()}
           </div>
         </div>
-        <div className="flex gap-4 items-center flex-col sm:flex-row content-center">
+        <div className="flex gap-4 items-center flex-row content-center justify-center">
           {!isCameraOpen ?
             <button onClick={handleStartScanBtn}
                     className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-base sm:text-base h-12 sm:h-12 px-6 sm:px-5">

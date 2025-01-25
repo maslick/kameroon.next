@@ -7,10 +7,9 @@ A web-based QR code scanner built with Next.js that uses both ZBar and ZXing dec
 - Dual decoder support (ZBar + ZXing) for better accuracy
 - Audio feedback on successful scan
 - Responsive design
-- Dark mode support
 
 ## Tech Stack
-- Next.js 14
+- Next.js 15
 - TailwindCSS
 - Web Workers for QR processing
 - MediaDevices API for camera access

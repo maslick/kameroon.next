@@ -49,7 +49,7 @@ export default function ScanCodePage() {
 
   const renderResult = () => {
     if (result) return (
-      <div className="p-4 px-4 mx-auto w-[320px] md:w-[480px] lg:w-[640px] rounded-2xl border-t-4 border-b-4 border-b-neutral-200">
+      <div className="p-4 px-4 mx-auto w-[340px] md:w-[480px] lg:w-[640px] rounded-2xl border-t-4 border-b-4 border-b-neutral-200">
         <p className="mb-5 text-wrap text-justify whitespace-pre-wrap break-words">{result['rawcode']}</p>
         <p className=""><b>{result['alg']}:</b> {result['milliseconds']} ms</p>
         <p className=""><b>type</b>: {result["type"]}</p>

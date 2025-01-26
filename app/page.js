@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-5 items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-5 items-center justify-items-center min-h-[100dvh] font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">
           Welcome to Kameroon.Next

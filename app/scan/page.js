@@ -39,7 +39,7 @@ export default function ScanCodePage() {
     return (
       <Scan
         beepOn={true}
-        crosshair={{enabled: false, style: "square"}}
+        crosshair={{enabled: true, style: "square"}}
         bw={false}
         onCapture={onCapture}
         onClear={onClear}

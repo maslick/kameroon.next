@@ -44,11 +44,8 @@ export const Button = styled.button`
 `;
 
 export const Result = styled.div`
-  width: 320px;
   height: auto;
   white-space: pre-wrap;
   word-break: break-word;
-  background-color: #e6e6e6;
-  border-radius: 6px;
   padding: 20px 20px 30px;
 `;

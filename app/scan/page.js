@@ -51,7 +51,7 @@ export default function ScanCodePage() {
   const renderResult = () => {
     if (result) return (
       <Result>
-        <p>{result['rawcode']}</p>
+        <div className="pb-6">{result['rawcode']}</div>
         <div><b>{result['alg']}:</b> {result['milliseconds']} ms</div>
         <div><b>type</b>: {result["type"]}</div>
       </Result>
@@ -60,7 +60,7 @@ export default function ScanCodePage() {
 
   return (
     <div
-      className="grid grid-rows-[10px_1fr_10px] items-center justify-items-center min-h-screen p-8 pb-10 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      className="grid grid-rows-[0px_1fr_0px] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
 
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">

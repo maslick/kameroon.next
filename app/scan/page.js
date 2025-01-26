@@ -3,7 +3,6 @@
 import {Scan} from "@/app/scan";
 import {initializeAudio} from "@/app/scan/helper";
 import {useState} from "react";
-import {Button, Result} from "./styles";
 
 export default function ScanCodePage() {
   const [isCameraOpen, setIsCameraOpen] = useState(false);

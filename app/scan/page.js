@@ -50,17 +50,17 @@ export default function ScanCodePage() {
 
   const renderResult = () => {
     if (result) return (
-      <Result>
-        <div className="pb-6">{result['rawcode']}</div>
-        <div><b>{result['alg']}:</b> {result['milliseconds']} ms</div>
-        <div><b>type</b>: {result["type"]}</div>
-      </Result>
+      <div className="p-4 px-4 md:w-[800px] mx-auto lg:w-[800px])">
+        <p className="mb-5 text-wrap text-justify">{result['rawcode']}</p>
+        <p className=""><b>{result['alg']}:</b> {result['milliseconds']} ms</p>
+        <p className=""><b>type</b>: {result["type"]}</p>
+      </div>
     );
   };
 
   return (
     <div
-      className="grid grid-rows-[0px_1fr_0px] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
+      className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
 
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">

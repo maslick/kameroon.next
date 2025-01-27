@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid grid-rows-5 items-center justify-items-center min-h-[100dvh] font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">
-          Welcome to Kameroon.Next
+          Welcome to Kameroon.next
         </div>
       </main>
       <a href="/scan" className="fixed bottom-8 right-3 rounded-full w-14 h-14 flex items-center justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] shadow-lg transition-all">

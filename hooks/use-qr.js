@@ -7,8 +7,8 @@ export function useQr(callback) {
   useEffect(() => {
     function createWorkers() {
       try {
-        const worker1 = new Worker("/zbarWorker.js");
-        const worker2 = new Worker("/zxingWorker.js");
+        const worker1 = new Worker("/kameroon/zbarWorker.js");
+        const worker2 = new Worker("/kameroon/zxingWorker.js");
 
         const onmessage = (alg) => async ev => {
           if (ev.data != null) {

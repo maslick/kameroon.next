@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "copy-lib-files": "cpx './node_modules/@maslick/kameroon/**/*' ./public/lib",
+    "copy-lib-files": "cpx './node_modules/@maslick/kameroon/wasm/**/*' ./public/wasm",
     "postinstall": "npm run copy-lib-files"
   },
   "dependencies": {
-    "@maslick/kameroon": "^2.0.0",
+    "@maslick/kameroon": "^2.0.4",
     "@reduxjs/toolkit": "^2.5.0",
     "next": "15.1.6",
     "qs": "^6.14.0",

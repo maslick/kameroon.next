@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "copy-lib-files": "cpx './node_modules/@maslick/kameroon/**/*' ./public/kameroon",
+    "copy-lib-files": "cpx './node_modules/@maslick/kameroon/**/*' ./public/lib",
     "postinstall": "npm run copy-lib-files"
   },
   "dependencies": {

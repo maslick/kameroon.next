@@ -34,7 +34,7 @@ export default function SettingsPage() {
           <div className="text-center mb-6">
             <h1 className="text-2xl font-bold">Config</h1>
           </div>
-          <div className="rounded-2xl shadow-2xl p-6 w-[340px] md:w-[480px] lg:w-[640px] pb-10 pt-10">
+          <div className="rounded-2xl shadow-2xl p-6 w-[340px] md:w-[480px] lg:w-[550px] pb-10 pt-10 h-[300px]">
             <div className="space-y-6">
               {/* Beep Setting */}
               <div className="flex items-center justify-between pt-2.5">
@@ -52,7 +52,7 @@ export default function SettingsPage() {
 
               {/* Black and White Setting */}
               <div className="flex items-center justify-between">
-                <label className="text-pretty">Black and white</label>
+                <label className="text-pretty">Black & white</label>
                 <label className="relative inline-flex items-center cursor-pointer">
                   <input
                     type="checkbox"

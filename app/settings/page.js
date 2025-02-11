@@ -31,7 +31,7 @@ export default function SettingsPage() {
       className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-[100dvh] font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
         <div className="font-[family-name:var(--font-geist-mono)]">
-          <div className="text-center mb-12">
+          <div className="text-center mb-6">
             <h1 className="text-2xl font-bold">Config</h1>
           </div>
           <div className="rounded-2xl shadow-2xl p-6 w-[340px] md:w-[480px] lg:w-[640px] pb-10 pt-10">

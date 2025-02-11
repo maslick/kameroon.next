@@ -88,7 +88,7 @@ export default function SettingsPage() {
                       className="w-[200px] bg-gray-50 border border-gray-300 text-gray-900 text-pretty rounded-lg p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white appearance-none focus:outline-none"
                       value={settings.crossHairStyle}
                       onChange={(e) => updateSettings('crossHairStyle', e.target.value)}
-                      style={{ textAlignLast: 'center', direction: 'rtl'}}
+                      style={{ textAlignLast: 'center'}}
                     >
                       <option value="rectangular" className="text-center direction-ltr" style={{direction: 'ltr'}}>Rectangular</option>
                       <option value="square" className="text-center direction-ltr" style={{direction: 'ltr'}}>Square</option>

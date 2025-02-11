@@ -41,6 +41,12 @@ export default function ScanCodePage() {
     setResult(undefined);
   };
 
+  const handleSettingsBtn = async () => {
+    setIsCameraOpen(false);
+    setResult(undefined);
+    router.push('/settings');
+  };
+
   const renderHelp = () => {
     if (!isCameraOpen && !result)
       return (
@@ -98,7 +104,7 @@ export default function ScanCodePage() {
           }
 
           <button
-            onClick={() => router.push('/settings')}
+            onClick={handleSettingsBtn}
             className="rounded-full w-12 h-12 flex items-center justify-center bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] shadow-lg transition-all z-50"
           >
             <svg

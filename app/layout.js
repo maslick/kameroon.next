@@ -13,15 +13,19 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Kameroon.Next",
-  description: "Kameroon app built with Next.js",
+  description: "ZXing / ZBar based QR-code scanner",
+  manifest: "/manifest.json"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
-      </body>
+    <head>
+      <meta name="apple-mobile-web-app-title" content="Kameroon"/>
+    </head>
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    {children}
+    </body>
     </html>
   );
 }

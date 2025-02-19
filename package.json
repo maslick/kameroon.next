@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npm run copy-lib-files && next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "next lint",
     "copy-lib-files": "cpx './node_modules/@maslick/kameroon/wasm/**/*' ./public/wasm",
     "postinstall": "npm run copy-lib-files"
@@ -19,6 +19,8 @@
     "react-measure": "^2.5.2",
     "react-router-dom": "^7.1.3",
     "react-usestateref": "^1.0.9",
+    "@serwist/next": "^9.0.11",
+    "serwist": "^9.0.11",
     "styled-components": "^6.1.14",
     "cpx": "^1.5.0",
     "postcss": "^8",

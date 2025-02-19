@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <head>
       <meta name="apple-mobile-web-app-title" content="Kameroon"/>
+      <meta name="theme-color" content="#fffff1"/>
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
     {children}

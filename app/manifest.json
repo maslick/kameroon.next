@@ -3,7 +3,7 @@
   "short_name": "Kameroon",
   "description": "ZXing / ZBar based QR-code scanner",
   "lang": "en-GB",
-  "start_url": "/scan",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#fffff1",

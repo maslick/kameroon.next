@@ -1,4 +1,3 @@
-```markdown
 # Kameroon.Next
 
 A progressive web application (PWA) for QR and barcode scanning, built with Next.js. 
@@ -38,3 +37,5 @@ npm install
 npm run dev
 
 # Build for production
+npm run build
+```

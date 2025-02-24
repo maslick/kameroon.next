@@ -28,7 +28,6 @@ Uses Web Workers for efficient barcode processing and Service Workers for offlin
 - 💾 Service Worker caches assets and enables offline functionality
 
 ## 🚀 Getting Started
-
 ```bash
 # Install dependencies
 npm install
@@ -39,3 +38,13 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+## 🔭 References
+* https://github.com/maslick/koder
+* https://github.com/maslick/kameroon-lib
+
+## 🙏 Credits
+We appreciate the open-source community for their contributions. **Kameroon** uses:
+
+- [Zbar](https://github.com/mchehab/zbar) under [LGPLv2+](https://github.com/mchehab/zbar/blob/master/LICENSE.md)
+- [ZXing-C++](https://github.com/zxing-cpp/zxing-cpp) (C++ port of ZXing) under [Apache License 2.0](https://github.com/zxing-cpp/zxing-cpp/blob/master/LICENSE)

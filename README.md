@@ -8,7 +8,7 @@ Uses Web Workers for efficient barcode processing and Service Workers for offlin
 - 📸 Real-time QR/bar code scanning using device camera
 - 🔄 Dual decoder support (ZBar + ZXing) via WebAssembly for better accuracy
 - ⚡ Web Workers for non-blocking QR/bar code processing
-- 🔌 Service Worker enabling offline functionality
+- 🔌 Service Worker via [serwist](https://serwist.pages.dev) enabling offline functionality
 - 🔊 Audio feedback on successful scan
 - 🌐 Works without internet connection
 - 📱 Responsive design

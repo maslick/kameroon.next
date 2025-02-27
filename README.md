@@ -43,7 +43,7 @@ npm run build
 * https://github.com/maslick/koder
 * https://github.com/maslick/kameroon-lib
 
-
+Kameroon.next uses:
 * [ZBar 0.23.90](https://github.com/mchehab/zbar/releases/tag/0.23.90)
 * [ZXing 2.1.0](https://github.com/zxing-cpp/zxing-cpp/releases/tag/v2.1.0)
 

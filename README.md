@@ -43,6 +43,10 @@ npm run build
 * https://github.com/maslick/koder
 * https://github.com/maslick/kameroon-lib
 
+
+* [ZBar 0.23.90](https://github.com/mchehab/zbar/releases/tag/0.23.90)
+* [ZXing 2.1.0](https://github.com/zxing-cpp/zxing-cpp/releases/tag/v2.1.0)
+
 ## 🙏 Credits
 We appreciate the open-source community for their contributions. **Kameroon** uses:
 

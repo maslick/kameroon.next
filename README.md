@@ -16,7 +16,7 @@ Uses Web Workers for efficient barcode processing and Service Workers for offlin
 
 ## 🛠️ Tech Stack
 - ⚛️ Next.js 15
-- 🎨 TailwindCSS
+- 🎨 Tailwind CSS
 - 👷 Web Workers for QR/bar code processing
 - 🔧 WebAssembly (ZBar and ZXing decoders)
 - 🔄 Service Workers for offline support

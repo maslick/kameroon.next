@@ -3,6 +3,9 @@
 A progressive web application (PWA) for QR and barcode scanning, built with Next.js. 
 Uses Web Workers for efficient barcode processing and Service Workers for offline functionality.
 
+<p align="center" >
+  <img src="./screenshot.png" />
+</p>
 
 ## ✨ Features
 - 📸 Real-time QR/bar code scanning using device camera

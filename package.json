@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@maslick/kameroon": "^2.0.5",
-    "next": "15.1.6",
+    "next": "^15.5.28",
     "qs": "^6.16.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

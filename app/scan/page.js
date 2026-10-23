@@ -72,7 +72,7 @@ export default function ScanCodePage() {
   const renderResult = () => {
     if (result) return (
       <div className="p-4 px-4 mx-auto w-[340px] md:w-[480px] lg:w-[640px] rounded-2xl border-t-4 border-b-4 border-b-neutral-200">
-        <p className="mb-5 text-wrap text-justify whitespace-pre-wrap break-words">{result['rawcode']}</p>
+        <p className="mb-5 text-wrap text-justify whitespace-pre-wrap wrap-break-word">{result['rawcode']}</p>
         <p className=""><b>{result['alg']}:</b> {result['milliseconds']} ms</p>
         <p className=""><b>type</b>: {result["type"]}</p>
       </div>
@@ -81,10 +81,10 @@ export default function ScanCodePage() {
 
   return (
     <div
-      className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-[100dvh] font-[family-name:var(--font-geist-sans)]">
+      className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-dvh font-(family-name:--font-geist-sans)">
 
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
-        <div className="font-[family-name:var(--font-geist-mono)]">
+        <div className="font-(family-name:--font-geist-mono)">
           <div style={{minHeight: 0, margin: 0}}>
             {renderHelp()}
             {renderResult()}

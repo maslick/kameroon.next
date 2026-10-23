@@ -28,9 +28,9 @@ export default function SettingsPage() {
 
   return (
     <div
-      className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-[100dvh] font-[family-name:var(--font-geist-sans)]">
+      className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-dvh font-(family-name:--font-geist-sans)">
       <main className="flex flex-col gap-8 row-start-2 sm:items-center">
-        <div className="font-[family-name:var(--font-geist-mono)]">
+        <div className="font-(family-name:--font-geist-mono)">
           <div className="text-center mb-6">
             <h1 className="text-2xl font-bold">Config</h1>
           </div>
@@ -46,7 +46,7 @@ export default function SettingsPage() {
                     checked={settings.beep}
                     onChange={(e) => updateSettings('beep', e.target.checked)}
                   />
-                  <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"/>
+                  <div className="w-11 h-6 bg-gray-200 peer-focus:outline-hidden peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"/>
                 </label>
               </div>
 
@@ -61,7 +61,7 @@ export default function SettingsPage() {
                     onChange={(e) => updateSettings('bw', e.target.checked)}
                   />
                   <div
-                    className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"></div>
+                    className="w-11 h-6 bg-gray-200 peer-focus:outline-hidden peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"></div>
                 </label>
               </div>
 
@@ -77,7 +77,7 @@ export default function SettingsPage() {
                       onChange={(e) => updateSettings('crossHair', e.target.checked)}
                     />
                     <div
-                      className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"></div>
+                      className="w-11 h-6 bg-gray-200 peer-focus:outline-hidden peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-500"></div>
                   </label>
                 </div>
 
@@ -85,7 +85,7 @@ export default function SettingsPage() {
                 {settings.crossHair && (
                   <div className="flex items-center justify-center pt-8">
                     <select
-                      className="w-[200px] bg-gray-50 border border-gray-300 text-gray-900 text-pretty rounded-lg p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white appearance-none focus:outline-none"
+                      className="w-[200px] bg-gray-50 border border-gray-300 text-gray-900 text-pretty rounded-lg p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white appearance-none focus:outline-hidden"
                       value={settings.crossHairStyle}
                       onChange={(e) => updateSettings('crossHairStyle', e.target.value)}
                       style={{ textAlignLast: 'center'}}
